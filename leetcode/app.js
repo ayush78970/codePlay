@@ -19,14 +19,14 @@ const path = require("path");
 
 const server = http.createServer(app);
 const io = new Server(server, {
-  cors: { origin: "http://localhost:5173" }
+  cors: { origin: "https://codeplay-1.onrender.com" }
 });
 
 const { interview } = require("./src/controllers/solveDoubt");
 interview(io);
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://codeplay-1.onrender.com',
   credentials: true
 }));
 
