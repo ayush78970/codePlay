@@ -38,10 +38,10 @@ function Footer() {
         <div>
           <h4 className="text-white font-semibold mb-4">Platform</h4>
           <ul className="space-y-3 text-gray-400 text-sm">
-            <li ><Link to="/challenges" className="hover:!text-white !no-underline">Challenges</Link></li>
-            <li><Link to="/dashboard" className="hover:!text-white !no-underline">Dashboard</Link></li>
-            <li><Link to="/leaderboard" className="hover:!text-white !no-underline">Leaderboard</Link></li>
-            <li><Link to="/ai-review" className="hover:!text-white !no-underline">AI Review</Link></li>
+            <li ><Link to="" className="hover:!text-white !no-underline">Challenges</Link></li>
+            <li><Link to="" className="hover:!text-white !no-underline">Dashboard</Link></li>
+            <li><Link to="" className="hover:!text-white !no-underline">Leaderboard</Link></li>
+            <li><Link to="" className="hover:!text-white !no-underline">AI Review</Link></li>
           </ul>
         </div>
 
@@ -49,13 +49,13 @@ function Footer() {
         <div>
           <h4 className="text-white font-semibold mb-4">Resources</h4>
           <ul className="space-y-3 text-gray-400 text-sm list-none">
-            <li><Link to="/interview" className="hover:!text-white !no-underline">Interview Prep</Link></li>
-            <li><Link to="/contribute" className="hover:!text-white !no-underline">Contribute</Link></li>
-            <li><Link to="/aboutOrganisation" className="hover:!text-white !no-underline">About</Link></li>
-            <li><Link to="/contact" className="hover:!text-white !no-underline">Contact</Link></li>
+            <li><Link to="" className="hover:!text-white !no-underline">Interview Prep</Link></li>
+            <li><Link to="" className="hover:!text-white !no-underline">Contribute</Link></li>
+            <li><Link to="" className="hover:!text-white !no-underline">About</Link></li>
+            <li><Link to="" className="hover:!text-white !no-underline">Contact</Link></li>
           </ul>
         </div>
-
+             
         {/* CTA */}
         <div>
           <h4 className="text-white font-semibold mb-4">Get Started</h4>
